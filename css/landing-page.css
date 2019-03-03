@@ -1,6 +1,6 @@
 body {
   font-family: 'Open Sans', sans-serif;
-  background-image: linear-gradient(to bottom right, #eef1e9, #f1e9ee);
+  background-image: linear-gradient(to bottom right, #f9faf8, #f1e9ee);
   color: black;
 }
 
@@ -13,9 +13,12 @@ h6 {
   font-weight: 700;
 }
 
-.name_heading {
+.footer_row {
   overflow-x: hidden;
+  padding-top: 0.5rem;
+  font-size: 0.75rem;
 }
+
 .tech_stack {
   overflow-x: hidden;
 }
@@ -25,6 +28,12 @@ h6 {
 
 #mynameid {
     font-family: 'Helvetica', sans-serif;
+}
+
+.h_row {
+  overflow-x: hidden;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 .project_list {
@@ -39,20 +48,44 @@ h6 {
   padding-bottom: 1rem;
 }
 
+.h_col {
+  padding-bottom: 3rem;
+}
+
+.h_card .card-title {
+  padding-top: 1rem;
+
+}
+
+.h_card {
+  opacity: 0;
+  transition: 0.5s;
+  margin: auto;
+  border: none;
+  padding-top: 1rem;
+  padding-bottom: 1.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  width: 75%;
+  background-color: transparent;
+}
+
+
 .tech_card {
-  width: 12rem;
+  width: 20rem;
   padding-right: 1rem;
   border-style: none;
   opacity: 0;
   transition: 0.5s;
-  background-color: #EEF1E9;
-}
-
-.card-text {
-  text-align: left;
-  color: #f95896;
+  background-color: inherit;
+  text-align: center;
   font-family: 'Helvetica', sans-serif;
 }
+
+/* .card-text {
+  text-align: left;
+  font-family: 'Helvetica', sans-serif;
+} */
 
  .center_items {
   padding-top: 7rem;
@@ -68,8 +101,23 @@ h6 {
 }
 
 .name_heading {
+  overflow-x: hidden;
   padding-top: 4rem;
-  padding-bottom: 10rem;
+  padding-bottom: 5rem;
+}
+
+.icon_links {
+  padding-bottom: 3rem;
+}
+
+
+.col-md-6 {
+  overflow-x: hidden;
+}
+
+.h_proj {
+  overflow-x: hidden;
+  padding-bottom: 6rem;
 }
 
 .my-name {
@@ -101,7 +149,7 @@ h6 {
 
 .tech_stack_col {
   padding-top: 1rem;
-  padding-bottom: 1rem;
+  padding-bottom: 5rem;
 }
 .skills-title {
   padding-top: 3rem;
@@ -189,8 +237,33 @@ h6 {
   padding-top: 2rem;
 }
 
+.half-col {
+  width: 50%;
+}
+
+.btn-custom {
+  background-color: #ECD2C8;
+}
+.btn-custom:hover {
+  background-color: #C9A495;
+}
+
+.third-col {
+  width: 33%;
+}
+
 .learning_cards {
   border-style: none;
+}
+
+.first_tech_stack_row {
+  padding-bottom: 3rem;
+  justify-content: center;
+}
+
+.second_tech_stack_row {
+  padding-bottom: 3rem;
+  justify-content: center;
 }
 
 .marley-card .card-subtitle {
@@ -208,7 +281,16 @@ h6 {
   -ms-animation: fadeIn ease 2s;
 }
 
-
+@media(min-width: 768px){
+  .col-1-5{
+    width: 20%;
+    float: left;
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+}
 
 @keyframes fadeIn{
   0% {

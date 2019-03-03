@@ -9,7 +9,7 @@ $(document).ready(function() {
             $(this).css('opacity', 0);
           };
       });
-      $(".project_list").each(function () {
+      $(".h_card").each(function () {
         // alert(mypos + " " + $(this).offset().top )
           if (mypos > $(this).offset().top - 750) {
               $(this).css('opacity', 1);
@@ -17,5 +17,6 @@ $(document).ready(function() {
             $(this).css('opacity', 0);
           };
       });
+
   });
 });
