@@ -269,6 +269,10 @@ h6 {
 .marley-card .card-subtitle {
 }
 
+.resume_link {
+  overflow-x: hidden;
+}
+
 .main_page_about_me {
   padding-bottom: 7rem;
 }
