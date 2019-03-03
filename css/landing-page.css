@@ -1,0 +1,256 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-image: linear-gradient(to bottom right, #eef1e9, #f1e9ee);
+  color: black;
+}
+
+h1,
+h2,
+h4,
+h5,
+h6 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+}
+
+.name_heading {
+  overflow-x: hidden;
+}
+.tech_stack {
+  overflow-x: hidden;
+}
+.project_list {
+  overflow-x: hidden;
+}
+
+#mynameid {
+    font-family: 'Helvetica', sans-serif;
+}
+
+.project_list {
+  opacity: 0;
+  transition: 0.5s;
+  padding-bottom: 3rem;
+}
+
+.tech_stack {
+  color: black;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.tech_card {
+  width: 12rem;
+  padding-right: 1rem;
+  border-style: none;
+  opacity: 0;
+  transition: 0.5s;
+  background-color: #EEF1E9;
+}
+
+.card-text {
+  text-align: left;
+  color: #f95896;
+  font-family: 'Helvetica', sans-serif;
+}
+
+ .center_items {
+  padding-top: 7rem;
+  padding-bottom: 4rem;
+}
+
+.center_items .center-item {
+  max-width: 18rem;
+}
+
+.center_items .center-item img {
+  max-width: 12rem;
+}
+
+.name_heading {
+  padding-top: 4rem;
+  padding-bottom: 10rem;
+}
+
+.my-name {
+  color: black;
+
+}
+
+.name-subtitle {
+  color: black;
+}
+
+
+.learning_label {
+  color: white;
+}
+
+.space_col {
+  width: 6rem;
+}
+
+.header_col {
+  background-color: red;
+  width: 13rem;
+}
+.learn_col {
+  width: 13rem;
+  background-color: red;
+}
+
+.tech_stack_col {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.skills-title {
+  padding-top: 3rem;
+}
+
+#emailicon:hover {
+  width: 101px;
+}
+
+#githubicon:hover {
+  width: 101px;
+}
+
+#circle_pic {
+  z-index: 1;
+  position: absolute;
+  top:37%;
+  left:5%;
+}
+
+#my_details {
+  z-index: 1;
+  position: absolute;
+  top:45%;
+  left:30%;
+}
+
+#github_link {
+  z-index: 1;
+  position: absolute;
+  top:45%;
+  left:60%;
+}
+
+#email_link {
+  z-index: 1;
+  position: absolute;
+  top:45%;
+  left:83%;
+}
+
+#fullscreencontainer {
+  height: 100vh;
+  overflow: hidden;
+}
+
+#growContainer{
+	display: table;
+	width: 100%;
+	height: 33%;
+}
+.grow{
+	display: table-cell;
+	height:100%;
+	width: 25%;
+	-webkit-transition:width 500ms;
+	-moz-transition:width 500ms;
+	transition:width 500ms;
+}
+#growContainer:hover .grow{
+	width:20%;
+}
+#growContainer:hover .grow:hover {
+	width:40%;
+}
+
+
+.proj-card .card-body {
+  width: 17rem;
+}
+
+.proj-card .card-subtitle {
+  width: 17rem;
+}
+
+
+.proj-card {
+  text-align: center;
+  width: 18rem;
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.project_list_header {
+  padding-top: 2rem;
+}
+
+.learning_cards {
+  border-style: none;
+}
+
+.marley-card .card-subtitle {
+}
+
+.main_page_about_me {
+  padding-bottom: 7rem;
+}
+
+.fade-in {
+  animation: fadeIn ease 2s;
+  -webkit-animation: fadeIn ease 2s;
+  -moz-animation: fadeIn ease 2s;
+  -o-animation: fadeIn ease 2s;
+  -ms-animation: fadeIn ease 2s;
+}
+
+
+
+@keyframes fadeIn{
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
